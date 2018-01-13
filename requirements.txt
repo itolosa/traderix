@@ -1,0 +1,5 @@
+gql==0.1.0
+orionx-api-client==0.1.3
+python-telegram-bot==9.0.0
+requests==2.18.4
+ujson==1.35
