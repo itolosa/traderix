@@ -13,6 +13,8 @@ $ git clone git@github.com:itolosa/traderine.git
 $ cd traderine && pip install -r requirements.txt
 ```
 
+Nota: Se recomienda fuertemente usar [virtualenv](https://virtualenv.pypa.io/en/stable/) para evitar conflictos con otros paquetes del sistema al instalar las dependencias.
+
 Posteriormente se debe modificar el archivo `connvars.py` para agregar un token. Para generar un Access Token, se debe hablar con [BotFather](https://telegram.me/botfather) y seguir una serie de pasos sencillos (descrito [aquí](https://core.telegram.org/bots#6-botfather)).
 
 Finalmente se puede correr el bot:
