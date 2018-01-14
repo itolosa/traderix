@@ -63,7 +63,7 @@ def price_callback(bot, update):
   msg += '  Deposito 1 CHA<=(OrionX: %f CHA<= %d CLP)\n' % ((1+0.0004048), round((1+0.0004048)*(1-(0.29/100.0))*orionx_price,0))
   msg += '  Retiro 1 CHA=>(OrionX: %f CHA=> %d CLP)\n' % ((1-0.01), round((1-0.01)*(1-(0.29/100.0))*orionx_price, 0))
   msg += '  _Ultima actualizacion: %s_\n\n' % result['southx']['timestamp'].strftime('%H:%M:%S %d/%m/%Y')
-  msg += 'Traderix 2018 | [Donate](https://github.com/itolosa/traderix#donations) | [Fork me on Github](https://github.com/itolosa/traderix'
+  msg += 'Traderix 2018 | [Donaciones](https://github.com/itolosa/traderix#donaciones) | [Fork me on Github](https://github.com/itolosa/traderix)'
   update.message.reply_text(msg, parse_mode=telegram.ParseMode.MARKDOWN, disable_web_page_preview=True)
 
 def main():

@@ -24,6 +24,13 @@ $ python traderix.py
 
 Al inicio aparecerán algunos datos que hay que llenar en la línea de comandos referentes a la cuenta usada para hacer consultas en orionx.io. Para configuración más detallada véase la librería [orionx-api-client](https://github.com/itolosa/orionx-api-client)
 
+Librerias usadas
+================
+
+* [ccxt](https://github.com/ccxt/ccxt)
+* [orionx-api-client](https://github.com/itolosa/orionx-api-client)
+* [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
+
 Donaciones
 ==========
 
