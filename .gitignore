@@ -101,7 +101,8 @@ ENV/
 .mypy_cache/
 
 # orionxapi cache
-cache/
+cache/headers.json
+cache/cookies.json
 
 # connvars.py
 connvars.py
